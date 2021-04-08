@@ -1,2 +1,2 @@
 live link: https://clefayomide.github.io/cv/
-Notice: site is responsive
+# Notice: site is responsive
