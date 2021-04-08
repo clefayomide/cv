@@ -6,7 +6,6 @@
 
 .container {
   margin: 0 auto;
-  border: 2px solid red;
   padding: 15px;
 }
 
@@ -42,6 +41,11 @@ p > span {
   color: darkgrey;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 h6.career-obj,
 h6.edu,
 h6.exp,
@@ -58,14 +62,13 @@ ul.technologies-body,
 ul.skills-body {
   font-size: 10px;
   margin-top: 4px;
-  border: 2px solid red;
 }
 
 ul.edu-body,
 ul.exp-body,
 ul.technologies-body,
 ul.skills-body {
-  padding-left: 25px;
+  padding-left: 15px;
   list-style-type: none;
 }
 
@@ -81,5 +84,107 @@ ul.skills-body > li {
 
 ul.course,
 ul.position {
-  padding-left: 30px;
+  padding-left: 60px;
+}
+
+i.fa {
+  position: relative;
+  top: 2px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+@media (max-width:1024px) {
+  .container {
+    width: 60%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: ghostwhite;
+  }
+  
+  h6.name {
+    font-size: 12px;
+  }
+  
+  #name {
+  padding-right: 3px;
+  border-right: 3px solid indianred;
+}
+
+span.job-title {
+  padding-left: 6px;
+}
+
+p.info {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+ul.edu-body,
+ul.exp-body,
+ul.technologies-body,
+ul.skills-body {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+ul.course,
+ul.position {
+  padding-left: 80px;
+}
+
+.body-all {
+  padding-left: 8px;
+}
+
+}
+
+
+@media (max-width:768px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 0;
+    background-color: white;
+  }
+  
+  h6.name {
+    font-size: 10px;
+  }
+  
+  #name {
+  padding-right: 1px;
+  border-right: 2px solid indianred;
+}
+
+span.job-title {
+  padding-left: 3px;
+}
+
+p.info {
+  font-size: 8px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+ul.edu-body,
+ul.exp-body,
+ul.technologies-body,
+ul.skills-body {
+  padding-left: 15px;
+  list-style-type: none;
+}
+
+ul.course,
+ul.position {
+  padding-left: 60px;
+}
+
+.body-all {
+  padding-left: 0;
+}
+
 }
