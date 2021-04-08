@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+.container {
+  margin: 0 auto;
+  border: 2px solid red;
+  padding: 15px;
+}
+
+header.header {
+  text-align: right;
+}
+
+h6 {
+  color: indianred;
+}
+
+h6.name {
+  font-size: 10px;
+  color: indianred;
+}
+
+#name {
+  padding-right: 1px;
+  border-right: 2px solid indianred;
+}
+
+span.job-title {
+  padding-left: 3px;
+}
+
+p.info {
+  font-size: 8px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+
+p > span {
+  color: darkgrey;
+}
+
+h6.career-obj,
+h6.edu,
+h6.exp,
+h6.technologies,
+h6.skills {
+  margin-top: 8px;
+  border-bottom: 1px solid black;
+}
+
+p.career-obj-body,
+ul.edu-body,
+ul.exp-body,
+ul.technologies-body,
+ul.skills-body {
+  font-size: 10px;
+  margin-top: 4px;
+  border: 2px solid red;
+}
+
+ul.edu-body,
+ul.exp-body,
+ul.technologies-body,
+ul.skills-body {
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+ul.edu-body > li,
+ul.exp-body > li {
+  padding-bottom: 10px;
+}
+
+ul.technologies-body > li,
+ul.skills-body > li {
+  padding-bottom: 5px;
+}
+
+ul.course,
+ul.position {
+  padding-left: 30px;
+}
