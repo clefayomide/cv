@@ -1,2 +1,4 @@
+#Zuri X i4g
 live link: https://clefayomide.github.io/cv/
-# Notice: site is responsive
+
+This is an individual task submitted to ingressive4Good @theZuriTeam internship program
